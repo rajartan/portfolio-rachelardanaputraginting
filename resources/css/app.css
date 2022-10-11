@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-track {
+    @apply bg-third;
+}
+::-webkit-scrollbar-thumb {
+    @apply bg-secondary;
+}
+
+.image {
+    @apply relative w-full overflow-hidden rounded-lg ;
+}
+
+.image-img {
+    @apply block w-full h-72 bg-gradient-to-t from-primary to-violet-600 rounded-lg;
+}
+
+.image-overlay {
+    @apply absolute h-full w-full bg-gradient-to-t from-black to-transparent top-0 px-4 rounded-lg opacity-0 transition-all duration-500;
+}
+
+.image-overlay > * {
+    @apply translate-y-20 transition-all duration-300;
+}
+
+.image-overlay:hover {
+    opacity: 1;
+}
+
+.image-overlay:hover > * {
+    @apply translate-y-[-60px];
+}
+
+.mode:hover > .fa {
+    @apply text-orange-600;
+}
