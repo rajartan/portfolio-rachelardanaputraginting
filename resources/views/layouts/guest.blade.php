@@ -19,7 +19,7 @@
     {{-- sidebar --}}
     <section class="md:bg-gradient-to-b from-violet-600 to-violet-400" id="section">
         <div class="container realtive">
-            <div class="flex flex-wrap md:min-h-screen  justify-center items-center">
+            <div class="flex flex-wrap md:min-h-screen justify-center items-center">
                 @include('layouts.sidebar')
                 @include('layouts.profile')
                 @yield('content')

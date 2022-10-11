@@ -1,13 +1,13 @@
 <div class="w-full md:w-16">
-    <div class="w-full flex fixed bottom-0 left-0 right-0 md:static z-40 flex-row md:flex-col justify-center md:p-2 md:gap-2">
+    <div class="w-full flex fixed bottom-0 left-0 right-0 md:static z-40 flex-row md:flex-col justify-center md:p-2">
         <div
             class="hidden w-full rounded md:flex shadow-xl flex-col justify-center items-center text-third font-medium">
-            <a href="" class="block p-4 text-third bg-white rounded {{ Request::is('/') ? 'text-fourth' : '' }}"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <a href="" class="block p-4 text-third bg-white rounded {{ Request::is('/') ? 'text-fourth' : '' }}"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
               </svg></a>
         </div>
-        <div class="w-full pt-6">
-            <div class="flex flex-row md:flex-col rounded shadow-xl border-t border-primary md:border-none md:mt-0 bg-white justify-center gap-5 md:gap-3 pb-2">
+        <div class="w-full pt-2">
+            <div class="flex flex-row md:flex-col rounded shadow-xl border-t border-primary md:border-none md:mt-0 bg-white justify-center gap-5 md:gap-2 pb-2">
                 <div class="flex flex-col justify-center items-center text-third font-medium">
                     <a href="{{ route('about') }}" class="block {{ Request::is('about') ? 'text-fourth' : '' }} p-4"><svg
                             xmlns="http://www.w3.org/2000/svg" width="18" height="18"
@@ -45,13 +45,13 @@
                     <span class="text-[9px] {{ Request::is('about') ? 'text-fourth' : '' }}">BLOG</span>
                 </div>
                 <div class="flex flex-col justify-center items-center text-third font-medium">
-                    <a href="" class="block p-4 {{ Request::is('about') ? 'text-fourth' : '' }}"><svg xmlns="http://www.w3.org/2000/svg"
+                    <a href="{{ route('contact') }}" class="block p-4 {{ Request::is('contact') ? 'text-fourth' : '' }}"><svg xmlns="http://www.w3.org/2000/svg"
                             width="18" height="18" fill="currentColor"
                             class="-mb-2 bi bi-telephone-fill" viewBox="0 0 16 16">
                             <path fill-rule="evenodd"
                                 d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
                         </svg></a>
-                    <span class="text-[9px] {{ Request::is('about') ? 'text-fourth' : '' }}">CONTACT</span>
+                    <span class="text-[9px] {{ Request::is('contact') ? 'text-fourth' : '' }}">CONTACT</span>
                 </div>
             </div>
         </div>

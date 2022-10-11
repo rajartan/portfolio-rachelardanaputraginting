@@ -1,19 +1,19 @@
 @extends('layouts.guest')
 @section('content')
     <div
-        class="w-full md:w-[600px] mb-20 md:mb-0 md:h-[480px] md:bg-white bg-transparent rounded md:rounded-l-none md:shadow-xl h-full grid-rows-2 items-start overflow-y-auto">
+        class="w-full sm:w-[600px] mb-20 sm:mb-0 sm:h-[480px] sm:bg-white bg-transparent rounded sm:rounded-l-none sm:shadow-xl h-full grid-rows-2 items-start overflow-y-auto">
         <div class="h-1/2">
             <div class="px-4 py-2">
-                <h2 class="text-xl text-secondary font-medium pb-4 text-center md:text-left">My Projects</h2>
+                <h2 class="text-xl text-secondary font-medium pb-4 text-center sm:text-left">My Projects</h2>
                 <div class="w-full mb-8">
-                    <div class="grid md:grid-cols-2 grid-cols-1 gap-4 justify-center">
-                        <div class="relative image h-44 rounded-md">
+                    <div class="grid sm:grid-cols-2 grid-cols-1 gap-4 justify-center">
+                        <div class="relative image h-44 rounded-sm">
                             <img src="https://images.unsplash.com/photo-1529400971008-f566de0e6dfc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d29ya3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
                                 alt="" width="50" class="block image-img">
                             <div class="image-overlay">
                                 <h3 class="mt-40 text-xs font-medium text-slate-100">Web</h3>
                                 <p class="text-sm font-semibold text-white mb-1">Lorem ipsum dolor sit amet </p>
-                                <div class="p-1 w-6 rounded-md bg-primary">
+                                <div class="p-1 w-6 rounded-sm bg-primary">
                                     <a href="" class="block text-white"><svg xmlns="http://www.w3.org/2000/svg" width="16"
                                         height="16" fill="currentColor" class="bi bi-link-45deg font-bold" viewBox="0 0 16 16">
                                         <path
@@ -24,13 +24,13 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="relative image h-44 rounded-md">
+                        <div class="relative image h-44 rounded-sm">
                             <img src="https://images.unsplash.com/photo-1529400971008-f566de0e6dfc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d29ya3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
                                 alt="" width="50" class="block image-img">
                             <div class="image-overlay">
                                 <h3 class="mt-40 text-xs font-medium text-slate-100">Web</h3>
                                 <p class="text-sm font-semibold text-white mb-1">Lorem ipsum dolor sit amet </p>
-                                <div class="p-1 w-6 rounded-md bg-primary">
+                                <div class="p-1 w-6 rounded-sm bg-primary">
                                     <a href="" class="block text-white"><svg xmlns="http://www.w3.org/2000/svg" width="16"
                                         height="16" fill="currentColor" class="bi bi-link-45deg font-bold" viewBox="0 0 16 16">
                                         <path
@@ -41,13 +41,13 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="relative image h-44 rounded-md">
+                        <div class="relative image h-44 rounded-sm">
                             <img src="https://images.unsplash.com/photo-1529400971008-f566de0e6dfc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d29ya3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
                                 alt="" width="50" class="block image-img">
                             <div class="image-overlay">
                                 <h3 class="mt-40 text-xs font-medium text-slate-100">Web</h3>
                                 <p class="text-sm font-semibold text-white mb-1">Lorem ipsum dolor sit amet </p>
-                                <div class="p-1 w-6 rounded-md bg-primary">
+                                <div class="p-1 w-6 rounded-sm bg-primary">
                                     <a href="" class="block text-white"><svg xmlns="http://www.w3.org/2000/svg" width="16"
                                         height="16" fill="currentColor" class="bi bi-link-45deg font-bold" viewBox="0 0 16 16">
                                         <path

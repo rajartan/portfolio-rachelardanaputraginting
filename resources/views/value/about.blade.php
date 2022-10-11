@@ -16,7 +16,7 @@
                 <div class="w-full px-4">
                     <div class="grid grid-cols-2 justify-between pt-2 text-sm">
                         <p class="text-violet-600 font-medium">Age</p>
-                        <p class="text-right text-third">18</p>
+                        <p class="text-right text-third">24</p>
                     </div>
                     <div class="grid grid-cols-2 justify-between pt-2 text-sm">
                         <p class="text-violet-600 font-medium">Residence</p>

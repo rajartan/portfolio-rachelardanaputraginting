@@ -25,5 +25,6 @@ Route::get('/dashboard', function () {
 Route::get('about', [ValueController::class, 'about'])->name('about');
 Route::get('skills', [ValueController::class, 'skills'])->name('skills');
 Route::get('projects', [ValueController::class, 'projects'])->name('projects');
+Route::get('contact', [ValueController::class, 'contact'])->name('contact');
 
 require __DIR__.'/auth.php';

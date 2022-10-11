@@ -17,4 +17,8 @@ class ValueController extends Controller
     public function projects() {
         return view('value.projects');
     }
+
+    public function contact() {
+        return view('value.contact');
+    }
 }

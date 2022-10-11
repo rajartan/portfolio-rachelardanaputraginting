@@ -1,4 +1,4 @@
-<div class="w-full md:w-[390px] md:h-[500px] z-20 my-4 md:my-0 mb-12 md:mb-0">
+<div class="w-full md:w-[390px] md:h-[500px] z-20 md:my-0 mb-12 md:mb-0">
     <div class="flex flex-wrap">
         <div class="w-full h-full md:bg-white bg-transparents rounded overflow-hidden md:shadow-xl md:pt-12">
             <img src="{{ asset('img/rachelginting.png') }}"
@@ -7,7 +7,7 @@
             <div class="text-center p-5">
                 <h1 class="text-[20px] font-medium text-secondary">Rachel Ardana Putra Ginting</h1>
                 <span class="text-violet-600 text-sm">Web Developer & UIX Designer</span>
-                <div class="flex gap-4 pt-4 justify-center md:pb-12">
+                <div class="flex gap-4 pt-4 justify-center md:pb-24">
                     <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="20"
                             height="20" fill="currentColor" class="text-secondary hover:text-primary bi bi-instagram"
                             viewBox="0 0 16 16">
